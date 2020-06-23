@@ -1,0 +1,38 @@
+{
+  "tordaviApp": {
+    "cDireccion": {
+      "home": {
+        "title": "C Direccions",
+        "createLabel": "Crear nuevo C Direccion",
+        "createOrEditLabel": "Crear o editar C Direccion",
+        "notFound": "Ningún C Direccions encontrado"
+      },
+      "created": "Un nuevo C Direccion ha sido creado con el identificador {{ param }}",
+      "updated": "Un C Direccion ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un C Direccion ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar C Direccion {{ id }}?"
+      },
+      "detail": {
+        "title": "C Direccion"
+      },
+      "direccionComplete": "Direccion Complete",
+      "direccion": "Direccion",
+      "numExterior": "Num Exterior",
+      "numInterior": "Num Interior",
+      "codigoPostal": "Codigo Postal",
+      "ciudad": "Ciudad",
+      "estado": "Estado",
+      "pais": "Pais",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente",
+      "pasajero": "Pasajero"
+    }
+  }
+}

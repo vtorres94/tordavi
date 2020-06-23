@@ -1,0 +1,33 @@
+{
+  "tordaviApp": {
+    "cVenta": {
+      "home": {
+        "title": "C Ventas",
+        "createLabel": "Crear nuevo C Venta",
+        "createOrEditLabel": "Crear o editar C Venta",
+        "notFound": "Ningún C Ventas encontrado"
+      },
+      "created": "Un nuevo C Venta ha sido creado con el identificador {{ param }}",
+      "updated": "Un C Venta ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un C Venta ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar C Venta {{ id }}?"
+      },
+      "detail": {
+        "title": "C Venta"
+      },
+      "vendedorId": "Vendedor Id",
+      "precioTotal": "Precio Total",
+      "fechaVenta": "Fecha Venta",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente",
+      "reservacion": "Reservacion"
+    }
+  }
+}

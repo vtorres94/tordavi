@@ -1,0 +1,35 @@
+{
+  "tordaviApp": {
+    "cReservacion": {
+      "home": {
+        "title": "C Reservacions",
+        "createLabel": "Crear nuevo C Reservacion",
+        "createOrEditLabel": "Crear o editar C Reservacion",
+        "notFound": "Ningún C Reservacions encontrado"
+      },
+      "created": "Un nuevo C Reservacion ha sido creado con el identificador {{ param }}",
+      "updated": "Un C Reservacion ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un C Reservacion ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar C Reservacion {{ id }}?"
+      },
+      "detail": {
+        "title": "C Reservacion"
+      },
+      "claveReservacion": "Clave Reservacion",
+      "precio": "Precio",
+      "numPasajeros": "Num Pasajeros",
+      "comentarios": "Comentarios",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente",
+      "pasajeroPrincipal": "Pasajero Principal",
+      "corrida": "Corrida"
+    }
+  }
+}

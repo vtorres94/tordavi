@@ -1,0 +1,32 @@
+{
+  "tordaviApp": {
+    "cDocumentoViaje": {
+      "home": {
+        "title": "C Documento Viajes",
+        "createLabel": "Create a new C Documento Viaje",
+        "createOrEditLabel": "Create or edit a C Documento Viaje",
+        "notFound": "No C Documento Viajes found"
+      },
+      "created": "A new C Documento Viaje is created with identifier {{ param }}",
+      "updated": "A C Documento Viaje is updated with identifier {{ param }}",
+      "deleted": "A C Documento Viaje is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete C Documento Viaje {{ id }}?"
+      },
+      "detail": {
+        "title": "C Documento Viaje"
+      },
+      "claveDocumento": "Clave Documento",
+      "documento": "Documento",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente",
+      "pasajero": "Pasajero"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+    "name": "CCliente",
+    "fields": [
+        {
+            "fieldName": "claveCliente",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 10
+        },
+        {
+            "fieldName": "cliente",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 60
+        },
+        {
+            "fieldName": "logo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "idUsuarioCreacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 9999999999
+        },
+        {
+            "fieldName": "fechaCreacion",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "idUsuarioActualizacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "max"
+            ],
+            "fieldValidateRulesMax": 9999999999
+        },
+        {
+            "fieldName": "fechaActualizacion",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "notas",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 300
+        },
+        {
+            "fieldName": "estatus",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 1
+        },
+        {
+            "fieldName": "borrado",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 1
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200114083457",
+    "javadoc": "entidad CCliente.\n@author Vladimir Torres.",
+    "entityTableName": "c_cliente",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "applications": "*",
+    "readonly": true
+}

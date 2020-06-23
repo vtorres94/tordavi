@@ -14,6 +14,29 @@
     <property name="uuidType" value="uuid" dbms="h2, postgresql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083457_added_entity_CCliente.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083502_added_entity_CAutobus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083458_added_entity_CContacto.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200102143459_added_entity_CCorrida.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083506_added_entity_CDetalleReservacion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083459_added_entity_CDireccion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083500_added_entity_CDocumentoViaje.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083503_added_entity_CLugarParada.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083501_added_entity_CPasajero.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083508_added_entity_CPendiente.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083505_added_entity_CReservacion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083507_added_entity_CVenta.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20200114083502_added_entity_constraints_CAutobus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083458_added_entity_constraints_CContacto.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200102143459_added_entity_constraints_CCorrida.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083506_added_entity_constraints_CDetalleReservacion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083459_added_entity_constraints_CDireccion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083500_added_entity_constraints_CDocumentoViaje.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083503_added_entity_constraints_CLugarParada.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083501_added_entity_constraints_CPasajero.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083508_added_entity_constraints_CPendiente.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083505_added_entity_constraints_CReservacion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200114083507_added_entity_constraints_CVenta.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

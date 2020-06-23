@@ -1,0 +1,86 @@
+{
+    "name": "CAutobus",
+    "fields": [
+        {
+            "fieldName": "autobus",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 50
+        },
+        {
+            "fieldName": "idUsuarioCreacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 9999999999
+        },
+        {
+            "fieldName": "fechaCreacion",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "idUsuarioActualizacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "max"
+            ],
+            "fieldValidateRulesMax": 9999999999
+        },
+        {
+            "fieldName": "fechaActualizacion",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "notas",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 300
+        },
+        {
+            "fieldName": "estatus",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 1
+        },
+        {
+            "fieldName": "borrado",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 1
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cCliente",
+            "otherEntityRelationshipName": "cAutobus",
+            "relationshipName": "cliente",
+            "otherEntityField": "cliente"
+        }
+    ],
+    "changelogDate": "20200114083502",
+    "javadoc": "entidad CAutobus.\n@author Vladimir Torres.",
+    "entityTableName": "c_autobus",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "applications": "*",
+    "readonly": true
+}

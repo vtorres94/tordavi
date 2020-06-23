@@ -1,0 +1,156 @@
+{
+    "name": "CCorrida",
+    "fields": [
+        {
+            "fieldName": "claveCorrida",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength",
+                "required"
+            ],
+            "fieldValidateRulesMaxlength": 20
+        },
+        {
+            "fieldName": "horaSalida",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength",
+                "required"
+            ],
+            "fieldValidateRulesMaxlength": 5
+        },
+        {
+            "fieldName": "horaLllegada",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength",
+                "required"
+            ],
+            "fieldValidateRulesMaxlength": 5
+        },
+        {
+            "fieldName": "conexion",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "lugarConexion",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 30
+        },
+        {
+            "fieldName": "diasSalida",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 50
+        },
+        {
+            "fieldName": "comentarios",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 300
+        },
+        {
+            "fieldName": "idUsuarioCreacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 999999999999
+        },
+        {
+            "fieldName": "fechaCreacion",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "idUsuarioActualizacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "max"
+            ],
+            "fieldValidateRulesMax": 999999999999
+        },
+        {
+            "fieldName": "fechaActualizacion",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "notas",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 300
+        },
+        {
+            "fieldName": "estatus",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 9
+        },
+        {
+            "fieldName": "borrado",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 1
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cCliente",
+            "otherEntityRelationshipName": "cCorrida",
+            "relationshipName": "cliente",
+            "otherEntityField": "cliente"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cAutobus",
+            "otherEntityRelationshipName": "cCorrida",
+            "relationshipName": "autobus",
+            "otherEntityField": "autobus"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cLugarParada",
+            "otherEntityRelationshipName": "cCorrida",
+            "relationshipName": "lugarSalida",
+            "otherEntityField": "claveLugarParada"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cLugarParada",
+            "otherEntityRelationshipName": "cCorrida",
+            "relationshipName": "lugarLlegada",
+            "otherEntityField": "claveLugarParada"
+        }
+    ],
+    "changelogDate": "20200102143459",
+    "javadoc": "entidad CCorrida.\n@author Vladimir Torres.",
+    "entityTableName": "c_corrida",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "applications": "*"
+}

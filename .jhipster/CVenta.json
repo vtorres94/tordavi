@@ -1,0 +1,104 @@
+{
+    "name": "CVenta",
+    "fields": [
+        {
+            "fieldName": "vendedorId",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "max",
+                "required"
+            ],
+            "fieldValidateRulesMax": 999999999999
+        },
+        {
+            "fieldName": "precioTotal",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "fechaVenta",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "idUsuarioCreacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 999999999999
+        },
+        {
+            "fieldName": "fechaCreacion",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "idUsuarioActualizacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "max"
+            ],
+            "fieldValidateRulesMax": 999999999999
+        },
+        {
+            "fieldName": "fechaActualizacion",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "notas",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 300
+        },
+        {
+            "fieldName": "estatus",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 9
+        },
+        {
+            "fieldName": "borrado",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 1
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cCliente",
+            "otherEntityRelationshipName": "cVenta",
+            "relationshipName": "cliente",
+            "otherEntityField": "cliente"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cReservacion",
+            "otherEntityRelationshipName": "cVenta",
+            "relationshipName": "reservacion",
+            "otherEntityField": "claveReservacion"
+        }
+    ],
+    "changelogDate": "20200114083507",
+    "javadoc": "entidad CVenta.\n@author Vladimir Torres.",
+    "entityTableName": "c_venta",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "applications": "*"
+}

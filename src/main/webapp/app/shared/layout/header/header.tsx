@@ -31,13 +31,13 @@ const Header = (props: IHeaderProps) => {
   };
 
   const renderDevRibbon = () =>
-    props.isInProduction === false ? (
+    /* props.isInProduction === false ? ( */
       <div className="ribbon dev">
         <a href="">
-          <Translate contentKey={`global.ribbon.${props.ribbonEnv}`} />
+          Sitio en construcción
         </a>
       </div>
-    ) : null;
+    /* ) : null; */
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
@@ -45,13 +45,13 @@ const Header = (props: IHeaderProps) => {
 
   return (
     <div id="app-header">
-      {renderDevRibbon()}
+       {renderDevRibbon()}
       <LoadingBar className="loading-bar" />
-      <Navbar dark expand="sm" fixed="top" className="jh-navbar">
+      <Navbar dark expand="sm" fixed="top" className="jh-navbar" style={{ backgroundColor: 'black', height: '200px' }}>
         <NavbarToggler aria-label="Menu" onClick={toggleMenu} />
         <Brand />
         <Collapse isOpen={menuOpen} navbar>
-          <Nav id="header-tabs" className="ml-auto" navbar>
+          <Nav id="header-tabs" className="ml-auto" navbar >
             <Home />
             {props.isAuthenticated && <EntitiesMenu />}
             {props.isAuthenticated && props.isAdmin && <AdminMenu showSwagger={props.isSwaggerEnabled} />}

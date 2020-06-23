@@ -1,0 +1,31 @@
+{
+  "tordaviApp": {
+    "cCliente": {
+      "home": {
+        "title": "C Clientes",
+        "createLabel": "Crear nuevo C Cliente",
+        "createOrEditLabel": "Crear o editar C Cliente",
+        "notFound": "Ningún C Clientes encontrado"
+      },
+      "created": "Un nuevo C Cliente ha sido creado con el identificador {{ param }}",
+      "updated": "Un C Cliente ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un C Cliente ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar C Cliente {{ id }}?"
+      },
+      "detail": {
+        "title": "C Cliente"
+      },
+      "claveCliente": "Clave Cliente",
+      "cliente": "Cliente",
+      "logo": "Logo",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado"
+    }
+  }
+}

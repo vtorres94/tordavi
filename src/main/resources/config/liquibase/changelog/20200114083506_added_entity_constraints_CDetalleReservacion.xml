@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <!--
+        Added the constraints for entity CDetalleReservacion.
+    -->
+    <changeSet id="20200114083506-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="cliente_id"
+                                 baseTableName="c_detalle_reservacion"
+                                 constraintName="fk_c_detalle_reservacion_cliente_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="c_cliente"/>
+
+        <addForeignKeyConstraint baseColumnNames="pasajero_id"
+                                 baseTableName="c_detalle_reservacion"
+                                 constraintName="fk_c_detalle_reservacion_pasajero_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="c_pasajero"/>
+
+        <addForeignKeyConstraint baseColumnNames="reservacion_id"
+                                 baseTableName="c_detalle_reservacion"
+                                 constraintName="fk_c_detalle_reservacion_reservacion_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="c_reservacion"/>
+
+    </changeSet>
+</databaseChangeLog>

@@ -7,6 +7,18 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "cCliente": "C Cliente",
+        "cAutobus": "C Autobus",
+        "cContacto": "C Contacto",
+        "cCorrida": "C Corrida",
+        "cDetalleReservacion": "C Detalle Reservacion",
+        "cDireccion": "C Direccion",
+        "cDocumentoViaje": "C Documento Viaje",
+        "cLugarParada": "C Lugar Parada",
+        "cPasajero": "C Pasajero",
+        "cPendiente": "C Pendiente",
+        "cReservacion": "C Reservacion",
+        "cVenta": "C Venta",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

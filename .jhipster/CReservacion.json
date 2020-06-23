@@ -1,0 +1,115 @@
+{
+    "name": "CReservacion",
+    "fields": [
+        {
+            "fieldName": "claveReservacion",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 10
+        },
+        {
+            "fieldName": "precio",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "numPasajeros",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "comentarios",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 300
+        },
+        {
+            "fieldName": "idUsuarioCreacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 999999999999
+        },
+        {
+            "fieldName": "fechaCreacion",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "idUsuarioActualizacion",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "max"
+            ],
+            "fieldValidateRulesMax": 999999999999
+        },
+        {
+            "fieldName": "fechaActualizacion",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "notas",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 300
+        },
+        {
+            "fieldName": "estatus",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 9
+        },
+        {
+            "fieldName": "borrado",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "max"
+            ],
+            "fieldValidateRulesMax": 1
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cCliente",
+            "otherEntityRelationshipName": "cReservacion",
+            "relationshipName": "cliente",
+            "otherEntityField": "cliente"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cPasajero",
+            "otherEntityRelationshipName": "cReservacion",
+            "relationshipName": "pasajeroPrincipal",
+            "otherEntityField": "nombreCompleto"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "cCorrida",
+            "otherEntityRelationshipName": "cReservacion",
+            "relationshipName": "corrida",
+            "otherEntityField": "claveCorrida"
+        }
+    ],
+    "changelogDate": "20200114083505",
+    "javadoc": "entidad CReservacion.\n@author Vladimir Torres.",
+    "entityTableName": "c_reservacion",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "applications": "*"
+}

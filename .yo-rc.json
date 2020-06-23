@@ -38,6 +38,8 @@
     "enableTranslation": true,
     "nativeLanguage": "es",
     "languages": ["es", "en"],
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "tordavi-international",
+    "herokuDeployType": "jar"
   }
 }

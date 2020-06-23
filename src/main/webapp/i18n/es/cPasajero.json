@@ -1,0 +1,37 @@
+{
+  "tordaviApp": {
+    "cPasajero": {
+      "home": {
+        "title": "C Pasajeros",
+        "createLabel": "Crear nuevo C Pasajero",
+        "createOrEditLabel": "Crear o editar C Pasajero",
+        "notFound": "Ningún C Pasajeros encontrado"
+      },
+      "created": "Un nuevo C Pasajero ha sido creado con el identificador {{ param }}",
+      "updated": "Un C Pasajero ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un C Pasajero ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar C Pasajero {{ id }}?"
+      },
+      "detail": {
+        "title": "C Pasajero"
+      },
+      "nombreCompleto": "Nombre Completo",
+      "nombre": "Nombre",
+      "segundoNombre": "Segundo Nombre",
+      "apellido": "Apellido",
+      "segundoApellido": "Segundo Apellido",
+      "edad": "Edad",
+      "curp": "Curp",
+      "ciudadania": "Ciudadania",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente"
+    }
+  }
+}

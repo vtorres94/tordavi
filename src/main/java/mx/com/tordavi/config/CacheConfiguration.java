@@ -42,6 +42,18 @@ public class CacheConfiguration {
             createCache(cm, mx.com.tordavi.domain.User.class.getName());
             createCache(cm, mx.com.tordavi.domain.Authority.class.getName());
             createCache(cm, mx.com.tordavi.domain.User.class.getName() + ".authorities");
+            createCache(cm, mx.com.tordavi.domain.CCliente.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CAutobus.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CContacto.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CCorrida.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CDetalleReservacion.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CDireccion.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CDocumentoViaje.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CLugarParada.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CPasajero.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CPendiente.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CReservacion.class.getName());
+            createCache(cm, mx.com.tordavi.domain.CVenta.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

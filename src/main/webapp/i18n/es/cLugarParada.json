@@ -1,0 +1,34 @@
+{
+  "tordaviApp": {
+    "cLugarParada": {
+      "home": {
+        "title": "C Lugar Paradas",
+        "createLabel": "Crear nuevo C Lugar Parada",
+        "createOrEditLabel": "Crear o editar C Lugar Parada",
+        "notFound": "Ningún C Lugar Paradas encontrado"
+      },
+      "created": "Un nuevo C Lugar Parada ha sido creado con el identificador {{ param }}",
+      "updated": "Un C Lugar Parada ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un C Lugar Parada ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar C Lugar Parada {{ id }}?"
+      },
+      "detail": {
+        "title": "C Lugar Parada"
+      },
+      "claveLugarParada": "Clave Lugar Parada",
+      "comunidad": "Comunidad",
+      "ciudad": "Ciudad",
+      "estado": "Estado",
+      "pais": "Pais",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente"
+    }
+  }
+}

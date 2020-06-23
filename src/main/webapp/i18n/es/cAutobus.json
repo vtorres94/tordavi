@@ -1,0 +1,30 @@
+{
+  "tordaviApp": {
+    "cAutobus": {
+      "home": {
+        "title": "C Autobuses",
+        "createLabel": "Crear nuevo C Autobus",
+        "createOrEditLabel": "Crear o editar C Autobus",
+        "notFound": "Ningún C Autobuses encontrado"
+      },
+      "created": "Un nuevo C Autobus ha sido creado con el identificador {{ param }}",
+      "updated": "Un C Autobus ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un C Autobus ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar C Autobus {{ id }}?"
+      },
+      "detail": {
+        "title": "C Autobus"
+      },
+      "autobus": "Autobus",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente"
+    }
+  }
+}

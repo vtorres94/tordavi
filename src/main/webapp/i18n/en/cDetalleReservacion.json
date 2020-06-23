@@ -1,0 +1,32 @@
+{
+  "tordaviApp": {
+    "cDetalleReservacion": {
+      "home": {
+        "title": "C Detalle Reservacions",
+        "createLabel": "Create a new C Detalle Reservacion",
+        "createOrEditLabel": "Create or edit a C Detalle Reservacion",
+        "notFound": "No C Detalle Reservacions found"
+      },
+      "created": "A new C Detalle Reservacion is created with identifier {{ param }}",
+      "updated": "A C Detalle Reservacion is updated with identifier {{ param }}",
+      "deleted": "A C Detalle Reservacion is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete C Detalle Reservacion {{ id }}?"
+      },
+      "detail": {
+        "title": "C Detalle Reservacion"
+      },
+      "precio": "Precio",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente",
+      "pasajero": "Pasajero",
+      "reservacion": "Reservacion"
+    }
+  }
+}

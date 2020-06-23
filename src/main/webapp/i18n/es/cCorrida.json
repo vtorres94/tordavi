@@ -1,0 +1,39 @@
+{
+  "tordaviApp": {
+    "cCorrida": {
+      "home": {
+        "title": "C Corridas",
+        "createLabel": "Crear nuevo C Corrida",
+        "createOrEditLabel": "Crear o editar C Corrida",
+        "notFound": "Ningún C Corridas encontrado"
+      },
+      "created": "Un nuevo C Corrida ha sido creado con el identificador {{ param }}",
+      "updated": "Un C Corrida ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un C Corrida ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar C Corrida {{ id }}?"
+      },
+      "detail": {
+        "title": "C Corrida"
+      },
+      "claveCorrida": "Clave Corrida",
+      "horaSalida": "Hora Salida",
+      "horaLllegada": "Hora Lllegada",
+      "conexion": "Conexion",
+      "lugarConexion": "Lugar Conexion",
+      "diasSalida": "Dias Salida",
+      "comentarios": "Comentarios",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente",
+      "autobus": "Autobus",
+      "lugarSalida": "Lugar Salida",
+      "lugarLlegada": "Lugar Llegada"
+    }
+  }
+}

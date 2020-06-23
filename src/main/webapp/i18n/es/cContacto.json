@@ -1,0 +1,33 @@
+{
+  "tordaviApp": {
+    "cContacto": {
+      "home": {
+        "title": "C Contactos",
+        "createLabel": "Crear nuevo C Contacto",
+        "createOrEditLabel": "Crear o editar C Contacto",
+        "notFound": "Ningún C Contactos encontrado"
+      },
+      "created": "Un nuevo C Contacto ha sido creado con el identificador {{ param }}",
+      "updated": "Un C Contacto ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un C Contacto ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar C Contacto {{ id }}?"
+      },
+      "detail": {
+        "title": "C Contacto"
+      },
+      "nombreContacto": "Nombre Contacto",
+      "telefono": "Telefono",
+      "area": "Area",
+      "idUsuarioCreacion": "Id Usuario Creacion",
+      "fechaCreacion": "Fecha Creacion",
+      "idUsuarioActualizacion": "Id Usuario Actualizacion",
+      "fechaActualizacion": "Fecha Actualizacion",
+      "notas": "Notas",
+      "estatus": "Estatus",
+      "borrado": "Borrado",
+      "cliente": "Cliente",
+      "pasajero": "Pasajero"
+    }
+  }
+}
