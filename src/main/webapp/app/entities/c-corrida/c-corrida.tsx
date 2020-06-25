@@ -17,7 +17,7 @@ export const CCorrida = (props: ICCorridaProps) => {
   const [paginationState, setPaginationState] = useState(getSortState(props.location, ITEMS_PER_PAGE));
 
   const getAllEntities = () => {
-    props.getEntities(paginationState.activePage - 1, paginationState.itemsPerPage, `${paginationState.sort},${paginationState.order}`);
+    props.getEntities('', 0, 1000, 'id&asc');
   };
 
   const sortEntities = () => {
